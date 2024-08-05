@@ -1,0 +1,74 @@
+// Fonts
+@import url("https://fonts.bunny.net/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+}
+
+.login-box {
+    width: 40%;
+    padding: 80px 50px;
+    background-color: rgba(
+        242,
+        242,
+        242,
+        0.5
+    ); /* Menggunakan RGBA untuk transparansi */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 0.8em;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #00b4d8;
+}
+
+.img-app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 45rem;
+    margin: auto;
+    border-radius: 80rem;
+}
