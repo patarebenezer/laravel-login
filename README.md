@@ -75,6 +75,6 @@ php artisan serve
 
 Penggunaan
 
-    •	Login: Akses /login dan gunakan kredensial yang telah di-seed ke database.
-    •	Beranda: Setelah login, Anda akan diarahkan ke halaman beranda yang menyambut pengguna.
-    •	Logout: Terdapat opsi untuk logout pada halaman beranda.
+-   Login: Akses /login dan gunakan kredensial yang telah di-seed ke database.
+-   Beranda: Setelah login, Anda akan diarahkan ke halaman beranda yang menyambut pengguna.
+-   Logout: Terdapat opsi untuk logout pada halaman beranda.
