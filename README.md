@@ -30,12 +30,10 @@ cd nasari-digital
 
 ### Langkah 2: Instalasi Dependensi
 
-Jalankan Composer dan npm untuk menginstal dependensi PHP dan JavaScript.
+Jalankan Composer untuk menginstal dependensi PHP.
 
 ```bash
 composer install
-npm install
-npm run dev
 ```
 
 ### Langkah 3: Konfigurasi env
@@ -67,7 +65,13 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
-### Langkah 6: Running server
+### Langkah 6: Running server and client
+
+```bash
+npm install && npm run dev
+```
+
+Buka new tab terminal dan running server
 
 ```bash
 php artisan serve
